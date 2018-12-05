@@ -8,6 +8,14 @@
   </head>
   <body>
     <main id="main">
+      <div id="recipe-form-template">
+        <form id="recipe-form" onsubmit="handleSubmit()">
+          <input type="text" id="name">
+          <input type="text" id="description">
+          <input type="text" id="ingredients">
+          <input type="submit">
+        </form>
+      </div>
     </main>
     <script src="node_modules/handlebars/dist/handlebars.min.js"></script>
     <script src="index.js"></script>
